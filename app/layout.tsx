@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Alaniel Salada",
-  description: "Personal portfolio",
+  title: "Alaniel Salada | Personal Site",
+  description: "A personal site built with Next.js",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
