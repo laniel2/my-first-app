@@ -2,25 +2,16 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <section className="flex min-h-[60vh] items-center">
-      <div className="max-w-3xl">
-        <p className="mb-4 text-sm font-semibold uppercase tracking-[0.2em] text-sky-400">
-          Welcome
-        </p>
-        <h1 className="text-4xl font-bold leading-tight text-white sm:text-6xl">
-          Hi, I&apos;m Alaniel Salada.
-        </h1>
-        <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-300">
-          I love programming and music, and I&apos;m building projects as I
-          continue learning and growing.
-        </p>
-        <Link
-          className="mt-8 inline-flex rounded-lg bg-sky-500 px-5 py-3 font-semibold text-slate-950 transition hover:bg-sky-400"
-          href="/projects"
-        >
-          See my projects
-        </Link>
-      </div>
+    <section>
+      <p className="text-sm font-medium text-gray-600">Welcome</p>
+      <h1 className="mt-3 text-4xl font-bold">Hi, I&apos;m Alaniel Salada.</h1>
+      <p className="mt-5 max-w-xl leading-7 text-gray-700">
+        I love programming and music, and I&apos;m building projects as I
+        continue learning and growing.
+      </p>
+      <Link className="mt-6 inline-block underline" href="/projects">
+        See my projects
+      </Link>
     </section>
   );
 }
